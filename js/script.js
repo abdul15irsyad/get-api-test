@@ -1,5 +1,4 @@
 function sendRequest(){
-	totalKey=0;
 	$('.root').html('');
 	let requestMethod = $('#method').val();
 	let requestQuery = $('#query').val();
@@ -40,7 +39,16 @@ $('.btn-add-param').on('click', function(){
 	$('.key').val('');
 	$('.value').val('');
 });
-//https://www.googleapis.com/youtube/v3/channels
-//key=AIzaSyBmQiyHAmPhJw5BQ1ACOT1VhZ502jGq-tY
-//part=snippet,statistics
-//id=UCZAZS5qZ-ycexMbIHjSqV9Q
+
+$('.btn-reset').on('click', function(){
+	totalKey=0;
+	$('#query').val('');
+	$('.key').val('');
+	$('.value').val('');
+});
+/*
+	https://www.googleapis.com/youtube/v3/channels
+	key=AIzaSyBmQiyHAmPhJw5BQ1ACOT1VhZ502jGq-tY
+	part=snippet,statistics
+	id=UCZAZS5qZ-ycexMbIHjSqV9Q
+*/
