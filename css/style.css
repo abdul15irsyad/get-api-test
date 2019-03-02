@@ -1,0 +1,36 @@
+.container{
+	padding: 10px;
+}
+
+#method{
+	background-color: #efefef;
+}
+
+.btn-send{
+	width: 100%;
+}
+
+.content{
+	/*min-height: 500px; */
+}
+
+.box-response{
+	background-color: #fff;
+	border: 1px solid grey;
+	min-height: 200px;
+	border-radius: 10px;
+	padding: 15px 30px;
+}
+
+.footer{
+	width: 100%;
+	height: 8vh;
+	background-color: #343a40;
+	margin-bottom: 0;
+}
+
+.footer p{
+	color: #fff;
+	line-height: 8vh;
+	margin-bottom: 0;
+}
